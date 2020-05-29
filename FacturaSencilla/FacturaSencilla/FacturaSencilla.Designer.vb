@@ -245,7 +245,7 @@ Partial Class FacturaSencilla
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "P. unitario"
         '
-        'Form1
+        'FacturaSencilla
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -255,7 +255,7 @@ Partial Class FacturaSencilla
         Me.Controls.Add(Me.btnNuevo)
         Me.Controls.Add(Me.btnCalcular)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Form1"
+        Me.Name = "FacturaSencilla"
         Me.Text = "Factura"
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
