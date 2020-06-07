@@ -6,4 +6,12 @@
     Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click
         End
     End Sub
+
+    Private Sub FormulaGeneralCuadraticaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FormulaGeneralCuadraticaToolStripMenuItem.Click
+        formulaGeneralCuadratica.Show()
+    End Sub
+
+    Private Sub AlmacenesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlmacenesToolStripMenuItem.Click
+        almacenes.Show()
+    End Sub
 End Class
