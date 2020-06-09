@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class almacenes
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class almacenes
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.CmboxSupMedia = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -34,7 +34,7 @@ Partial Class almacenes
         Me.CmboxLista = New System.Windows.Forms.ComboBox()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtmedia = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -44,6 +44,7 @@ Partial Class almacenes
         'CmboxSupMedia
         '
         Me.CmboxSupMedia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.CmboxSupMedia.Enabled = False
         Me.CmboxSupMedia.FormattingEnabled = True
         Me.CmboxSupMedia.Location = New System.Drawing.Point(6, 98)
         Me.CmboxSupMedia.Name = "CmboxSupMedia"
@@ -127,6 +128,7 @@ Partial Class almacenes
         'CmboxLista
         '
         Me.CmboxLista.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.CmboxLista.Enabled = False
         Me.CmboxLista.FormattingEnabled = True
         Me.CmboxLista.Location = New System.Drawing.Point(9, 154)
         Me.CmboxLista.Name = "CmboxLista"
@@ -144,7 +146,7 @@ Partial Class almacenes
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.TextBox1)
+        Me.GroupBox2.Controls.Add(Me.txtmedia)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.CmboxSupMedia)
         Me.GroupBox2.Controls.Add(Me.Label1)
@@ -156,13 +158,13 @@ Partial Class almacenes
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Media"
         '
-        'TextBox1
+        'txtmedia
         '
-        Me.TextBox1.Location = New System.Drawing.Point(34, 44)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(118, 20)
-        Me.TextBox1.TabIndex = 10
+        Me.txtmedia.Location = New System.Drawing.Point(34, 44)
+        Me.txtmedia.Name = "txtmedia"
+        Me.txtmedia.ReadOnly = True
+        Me.txtmedia.Size = New System.Drawing.Size(118, 20)
+        Me.txtmedia.TabIndex = 10
         '
         'Label4
         '
@@ -216,6 +218,6 @@ Partial Class almacenes
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Label4 As Label
     Friend WithEvents CmboxLista As ComboBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtmedia As TextBox
     Friend WithEvents btnSalir As Button
 End Class
