@@ -59,6 +59,7 @@ Partial Class cadenaDeNumeros
         'cmboxNumeros
         '
         Me.cmboxNumeros.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmboxNumeros.Enabled = False
         Me.cmboxNumeros.FormattingEnabled = True
         Me.cmboxNumeros.Location = New System.Drawing.Point(25, 81)
         Me.cmboxNumeros.Name = "cmboxNumeros"

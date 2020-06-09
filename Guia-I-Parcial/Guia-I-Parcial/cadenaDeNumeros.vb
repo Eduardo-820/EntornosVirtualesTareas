@@ -13,6 +13,7 @@
                 MsgBox("Solo se permiten valores numericos")
                 txtIngresar.Text = ""
             Else
+                cmboxNumeros.Enabled = True
                 numeros += 1
                 valor = Val(txtIngresar.Text)
                 cmboxNumeros.Items.Add(valor)
