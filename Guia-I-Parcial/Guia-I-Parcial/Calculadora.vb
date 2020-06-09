@@ -114,6 +114,10 @@
         End If
     End Sub
 
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
+        Me.Close()
+    End Sub
+
     Private Sub ButtonMS_Click(sender As Object, e As EventArgs) Handles ButtonMS.Click
         Try
             Mem = TxtOperacion.Text

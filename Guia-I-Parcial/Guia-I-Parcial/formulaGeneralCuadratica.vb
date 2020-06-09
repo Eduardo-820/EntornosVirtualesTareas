@@ -1,6 +1,10 @@
 ﻿Public Class formulaGeneralCuadratica
     Dim a, b, c, Raiz, RaizResuelta, SolucionPositiva, SolucionNegativa
 
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
+        Me.Close()
+    End Sub
+
     Private Sub txta_TextChanged(sender As Object, e As EventArgs) Handles txta.TextChanged
         If Not IsNumeric(txta.Text) And txta.Text <> "" Then
             Beep()

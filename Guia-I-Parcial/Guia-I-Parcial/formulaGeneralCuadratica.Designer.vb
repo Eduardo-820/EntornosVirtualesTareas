@@ -37,6 +37,7 @@ Partial Class formulaGeneralCuadratica
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.txtSolucion2 = New System.Windows.Forms.TextBox()
+        Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txta
@@ -172,11 +173,21 @@ Partial Class formulaGeneralCuadratica
         Me.txtSolucion2.Size = New System.Drawing.Size(100, 20)
         Me.txtSolucion2.TabIndex = 5
         '
+        'btnSalir
+        '
+        Me.btnSalir.Location = New System.Drawing.Point(12, 170)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(51, 23)
+        Me.btnSalir.TabIndex = 16
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = True
+        '
         'formulaGeneralCuadratica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(337, 148)
+        Me.ClientSize = New System.Drawing.Size(337, 205)
+        Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.txtSolucion2)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
@@ -216,4 +227,5 @@ Partial Class formulaGeneralCuadratica
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents txtSolucion2 As TextBox
+    Friend WithEvents btnSalir As Button
 End Class

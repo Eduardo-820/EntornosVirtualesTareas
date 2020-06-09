@@ -14,4 +14,8 @@
     Private Sub AlmacenesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlmacenesToolStripMenuItem.Click
         almacenes.Show()
     End Sub
+
+    Private Sub CadenaDeNumerosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CadenaDeNumerosToolStripMenuItem.Click
+        cadenaDeNumeros.Show()
+    End Sub
 End Class

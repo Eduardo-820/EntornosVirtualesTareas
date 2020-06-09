@@ -26,10 +26,10 @@ Partial Class InicioForm
         Me.TrabajosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CalculadoraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormulaGeneralCuadraticaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.AlmacenesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CadenaDeNumerosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -62,6 +62,18 @@ Partial Class InicioForm
         Me.FormulaGeneralCuadraticaToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
         Me.FormulaGeneralCuadraticaToolStripMenuItem.Text = "Formula General Cuadratica"
         '
+        'AlmacenesToolStripMenuItem
+        '
+        Me.AlmacenesToolStripMenuItem.Name = "AlmacenesToolStripMenuItem"
+        Me.AlmacenesToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
+        Me.AlmacenesToolStripMenuItem.Text = "Almacenes"
+        '
+        'CadenaDeNumerosToolStripMenuItem
+        '
+        Me.CadenaDeNumerosToolStripMenuItem.Name = "CadenaDeNumerosToolStripMenuItem"
+        Me.CadenaDeNumerosToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
+        Me.CadenaDeNumerosToolStripMenuItem.Text = "Cadena de Numeros"
+        '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
@@ -76,18 +88,6 @@ Partial Class InicioForm
         Me.Label1.Size = New System.Drawing.Size(297, 13)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Utilice el menu superior para acceder a los trabajos realizados"
-        '
-        'AlmacenesToolStripMenuItem
-        '
-        Me.AlmacenesToolStripMenuItem.Name = "AlmacenesToolStripMenuItem"
-        Me.AlmacenesToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.AlmacenesToolStripMenuItem.Text = "Almacenes"
-        '
-        'CadenaDeNumerosToolStripMenuItem
-        '
-        Me.CadenaDeNumerosToolStripMenuItem.Name = "CadenaDeNumerosToolStripMenuItem"
-        Me.CadenaDeNumerosToolStripMenuItem.Size = New System.Drawing.Size(221, 22)
-        Me.CadenaDeNumerosToolStripMenuItem.Text = "Cadena de Numeros"
         '
         'Label2
         '

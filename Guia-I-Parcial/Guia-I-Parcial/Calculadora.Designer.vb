@@ -46,6 +46,7 @@ Partial Class Calculadora
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CboxHistorial = New System.Windows.Forms.ComboBox()
+        Me.btnSalir = New System.Windows.Forms.Button()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -284,11 +285,21 @@ Partial Class Calculadora
         Me.CboxHistorial.Size = New System.Drawing.Size(170, 21)
         Me.CboxHistorial.TabIndex = 80
         '
+        'btnSalir
+        '
+        Me.btnSalir.Location = New System.Drawing.Point(12, 266)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(51, 23)
+        Me.btnSalir.TabIndex = 81
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = True
+        '
         'Calculadora
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(194, 260)
+        Me.ClientSize = New System.Drawing.Size(194, 301)
+        Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.CboxHistorial)
         Me.Controls.Add(Me.ButtonMR)
         Me.Controls.Add(Me.ButtonMC)
@@ -343,4 +354,5 @@ Partial Class Calculadora
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents CboxHistorial As ComboBox
+    Friend WithEvents btnSalir As Button
 End Class

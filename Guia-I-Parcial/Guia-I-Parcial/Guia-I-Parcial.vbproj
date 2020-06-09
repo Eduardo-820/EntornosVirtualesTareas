@@ -80,6 +80,12 @@
     <Compile Include="almacenes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="cadenaDeNumeros.Designer.vb">
+      <DependentUpon>cadenaDeNumeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadenaDeNumeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Calculadora.Designer.vb">
       <DependentUpon>Calculadora.vb</DependentUpon>
     </Compile>
@@ -118,6 +124,9 @@
   <ItemGroup>
     <EmbeddedResource Include="almacenes.resx">
       <DependentUpon>almacenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadenaDeNumeros.resx">
+      <DependentUpon>cadenaDeNumeros.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Calculadora.resx">
       <DependentUpon>Calculadora.vb</DependentUpon>
